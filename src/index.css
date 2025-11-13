@@ -2,14 +2,15 @@
 
 @import "tailwindcss";
 
-@theme{
-    --color-primary:#EDEEF0;
-    --color-button:#E98603;
-    --font-vonca: "Vonca", sans-serif;
-    --font-lato: "Lato", sans-serif;
+@theme {
+  --color-primary: #edeef0;
+  --color-button: #e98603;
+  --font-vonca: "Vonca", sans-serif;
+  --font-lato: "Lato", sans-serif;
+  --font-Montser: "Monsterrat ExtraLinght";
 }
 
 body,
-html{
-    @apply min-h-screen w-full overflow-x-hidden scroll-smooth text-sm md:text-base lg:text-lg
+html {
+  @apply min-h-screen w-full overflow-x-hidden scroll-smooth text-sm md:text-base lg:text-lg;
 }
