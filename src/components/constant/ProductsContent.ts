@@ -24,11 +24,6 @@ const productsContent = () => {
       },
       
    ]
-  return (
-    <div>
-      
-    </div>
-  )
 }
 
 export default productsContent
