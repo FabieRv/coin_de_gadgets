@@ -14,3 +14,9 @@ body,
 html {
   @apply min-h-screen w-full overflow-x-hidden scroll-smooth text-sm md:text-base lg:text-lg;
 }
+
+/* .bg {
+  background: url("./../public//images/ordinateur.jpg");
+  background-size: cover;
+  height: 70vh;
+} */

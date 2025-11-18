@@ -13,7 +13,7 @@ function Header() {
   }
 
   return (
-    <div className="shadow-md">
+    <div className="bg-primary">
       <Container
         tag="header"
         className="flex items-center justify-between text-black pt-0! "
@@ -22,7 +22,7 @@ function Header() {
           <img
             src="/public/images/logo-2.png"
             alt="logo"
-            className="w-16 h-16 object-cover rounded border-2 bg-[rgb(215,215,247)] m-2"
+            className="w-16 h-16 object-cover rounded border-2 bg-[rgb(215,215,247)] m-1"
           />
         </Link>
         <Menu
