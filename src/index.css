@@ -15,8 +15,10 @@ html {
   @apply min-h-screen w-full overflow-x-hidden scroll-smooth text-sm md:text-base lg:text-lg;
 }
 
-/* .bg {
-  background: url("./../public//images/ordinateur.jpg");
+.bg {
+  background-image: url("./../public/images/bg5.webp");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 70vh;
-} */
+}

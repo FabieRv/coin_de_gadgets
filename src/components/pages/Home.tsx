@@ -9,13 +9,9 @@ function Home() {
       <div className="bg"></div>
       <Container>
         <div>
-          {Categories.map((cat) => {
-            return (
-              <Button label="All" key={cat}>
-                {cat}
-              </Button>
-            )
-          })}
+          {Categories.map((cat) => (
+            <Button label={cat} key={cat} />
+          ))}
         </div>
       </Container>
     </div>
