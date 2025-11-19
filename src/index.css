@@ -16,9 +16,8 @@ html {
 }
 
 .bg {
-  background-image: url("./../public/images/bg5.webp");
+  background-image: url("/images/bg_10.jpg");
   background-size: cover;
   background-position: center;
-  background-repeat: no-repeat;
-  height: 70vh;
+  height: 500px;
 }

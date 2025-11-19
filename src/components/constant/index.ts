@@ -7,3 +7,72 @@ export const headerLinkData: LinkType[] = [
   { label: "FQA", href: "/fqa" },
   { label: "Contact", href: "/contact" },
 ]
+
+import type { Product } from "../Types"
+
+export const products: Product[] = [
+  {
+    id: 1,
+    title: "Asus Pot GeaForce RTX",
+    price: 1000000,
+    description:
+      "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...",
+    image: "/images/ordinateur.jpg",
+  },
+  {
+    id: 2,
+    title: "Motos Pot GeaForce RTX",
+    price: 2400000,
+    description:
+      "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens.After downloading, extract the zip file...",
+    image: "/images/images-scooter.jpeg",
+  },
+  {
+    id: 4,
+    title: "Asus Pot GeaForce RTX",
+    price: 20000,
+    description:
+      "After downloading, extract the zip fileLes gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens......",
+    image: "/images/images-table.jpeg",
+  },
+  {
+    id: 6,
+    title: "Asus Pot GeaForce RTX",
+    price: 25000,
+    description:
+      "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
+    image: "images/babylis_.jpg",
+  },
+  {
+    id: 7,
+    title: "Asus Pot GeaForce RTX",
+    price: 300000,
+    description:
+      "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
+    image: "images/images-clavier.jpeg",
+  },
+  {
+    id: 8,
+    title: "Asus Pot GeaForce RTX",
+    price: 220000,
+    description:
+      "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
+    image: "images/images-chaise.jpeg",
+  },
+  {
+    id: 9,
+    title: "Asus Pot GeaForce RTX",
+    price: 3200,
+    description:
+      "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
+    image: "images/61SNXaa04qL.jpg",
+  },
+  {
+    id: 10,
+    title: "Asus Pot GeaForce RTX",
+    price: 20000,
+    description:
+      "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
+    image: "images/95897_large.png",
+  },
+]

@@ -13,7 +13,7 @@ function Header() {
   }
 
   return (
-    <div className="bg-primary">
+    <div className="shadow-sm">
       <Container
         tag="header"
         className="flex items-center justify-between text-black pt-0! "
@@ -22,7 +22,7 @@ function Header() {
           <img
             src="/public/images/logo-2.png"
             alt="logo"
-            className="w-16 h-16 object-cover rounded border-2 bg-[rgb(215,215,247)] m-1"
+            className="w-16 h-16 object-cover rounded border-b-blue-400 bg-[#cbe2e2]  m-1"
           />
         </Link>
         <Menu
@@ -36,7 +36,7 @@ function Header() {
       justify-center lg:justify-end
       gap-8 lg:gap-6 text-2xl lg:text-lg 2xl:text-xl  
       transition-transform duration-700  
-      lg:ml-auto flex-auto
+      lg:ml-auto flex-auto z-50
       ${
         isMenuOpen
           ? "translate-x-0 lg:translate-x-0"
