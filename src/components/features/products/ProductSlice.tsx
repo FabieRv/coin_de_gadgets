@@ -1,21 +1,29 @@
 import { createSlice } from "@reduxjs/toolkit"
+import type { PayloadAction } from "@reduxjs/toolkit"
 import { products } from "../../constant"
-import { stat } from "fs"
-
-const initialState = {
-  items: products,
-  filteredItems: products,
-  searchTeam: "",
+import type { Product } from "../../Types"
+type ProductState = {
+  items: Product[]
+  filteredItems: Product[]
+  searchTerm: string
+  category: string
 }
 
-// seacrhc product seacrch category
+const initialState: ProductState = {
+  items: products,
+  filteredItems: products,
+  searchTerm: "",
+  category: "All",
+}
 
-const filterProducts = (state) => {
-  return state.items.filter((products) => {
-    const matchSearch = products.title
+const filterProducts = (state: ProductState) => {
+  return state.items.filter((p) => {
+    const matchCategory =
+      state.category === "All" || p.category === state.category
+    const matchSearch = p.title
       .toLowerCase()
-      .includes(state.searchTeam.toLowerCase())
-    return matchSearch
+      .includes(state.searchTerm.toLowerCase())
+    return matchCategory && matchSearch
   })
 }
 
@@ -23,12 +31,16 @@ const productSlice = createSlice({
   name: "products",
   initialState,
   reducers: {
-    setSearchTerm: (state, action) => {
-      state.searchTeam = action.payload
+    setSearchTerm: (state, action: PayloadAction<string>) => {
+      state.searchTerm = action.payload
+      state.filteredItems = filterProducts(state)
+    },
+    setCategory: (state, action: PayloadAction<string>) => {
+      state.category = action.payload
       state.filteredItems = filterProducts(state)
     },
   },
 })
 
-export const {setSearchTerm}=productSlice.actions
-export default productSlice.reducer; 
+export const { setSearchTerm, setCategory } = productSlice.actions
+export default productSlice.reducer

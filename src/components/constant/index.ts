@@ -15,26 +15,27 @@ export const products: Product[] = [
     id: 1,
     title: "Asus Pot GeaForce RTX",
     price: 1000000,
-    description:
-      "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...",
+    description: "Les gadgets promotionnels...",
     image: "/images/ordinateur.jpg",
+    category: "Electronics",
   },
   {
     id: 2,
     title: "Motos Pot GeaForce RTX",
     price: 2400000,
-    description:
-      "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens.After downloading, extract the zip file...",
+    description: "Les gadgets promotionnels...",
     image: "/images/images-scooter.jpeg",
+    category: "Sports",
   },
   {
     id: 4,
-    title: "Asus Pot GeaForce RTX",
+    title: "Table Melanine Pot",
     price: 20000,
-    description:
-      "After downloading, extract the zip fileLes gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens......",
+    description: "Les gadgets promotionnels...",
     image: "/images/images-table.jpeg",
+    category: "Household",
   },
+
   {
     id: 6,
     title: "Asus Pot GeaForce RTX",
@@ -42,6 +43,7 @@ export const products: Product[] = [
     description:
       "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
     image: "images/babylis_.jpg",
+    category: "Electronics",
   },
   {
     id: 7,
@@ -50,6 +52,7 @@ export const products: Product[] = [
     description:
       "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
     image: "images/images-clavier.jpeg",
+    category: "Electronics",
   },
   {
     id: 8,
@@ -58,6 +61,7 @@ export const products: Product[] = [
     description:
       "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
     image: "images/images-chaise.jpeg",
+    category: "Household",
   },
   {
     id: 9,
@@ -66,6 +70,7 @@ export const products: Product[] = [
     description:
       "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
     image: "images/61SNXaa04qL.jpg",
+    category: "Electronics",
   },
   {
     id: 10,
@@ -74,6 +79,7 @@ export const products: Product[] = [
     description:
       "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
     image: "images/95897_large.png",
+    category: "Electronics",
   },
   {
     id: 11,
@@ -82,6 +88,7 @@ export const products: Product[] = [
     description:
       "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
     image: "images/chaise-rouge_1308-86311.jpg",
+    category: "Household",
   },
   {
     id: 12,
@@ -90,6 +97,7 @@ export const products: Product[] = [
     description:
       "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
     image: "images/goods_bicycle.jpg",
+    category: "Sports",
   },
   {
     id: 13,
@@ -98,13 +106,15 @@ export const products: Product[] = [
     description:
       "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
     image: "images/babyliss.jpeg",
+    category: "Electronics",
   },
   {
-    id: 13,
+    id: 14,
     title: "Asus Pot GeaForce RTX",
     price: 5000,
     description:
       "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
     image: "images/images-torche.jpeg",
+    category: "Tools",
   },
 ]

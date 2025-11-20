@@ -1,17 +1,14 @@
-import Button from "../common/Button"
+import { useDispatch } from "react-redux"
+import { setCategory } from "../features/products/ProductSlice"
 import Container from "../common/Container"
 import ProductGrid from "./ProductGrid"
-import { products } from "../constant"
+import Button from "../common/Button"
 
-const Categories = [
-  "All",
-  "Graphic Cards",
-  "Monitors",
-  "Power Supply",
-  "Laptop",
-]
+const Categories = ["All", "Electronics", "Household", "Sports", "Tools"]
 
 function Home() {
+  const dispatch = useDispatch()
+
   return (
     <div>
       <div className="bg flex items-center justify-center">
@@ -19,13 +16,19 @@ function Home() {
           THE GADGETS NOW
         </h1>
       </div>
+
       <Container className="pt-0!">
         <div className="flex gap-4 pt-4">
           {Categories.map((cat) => (
-            <Button label={cat} key={cat} />
+            <Button
+              label={cat}
+              key={cat}
+              onClick={() => dispatch(setCategory(cat))}
+            />
           ))}
         </div>
-        <ProductGrid products={products} />
+
+        <ProductGrid />
       </Container>
     </div>
   )

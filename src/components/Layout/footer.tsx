@@ -80,7 +80,7 @@ function Footer() {
             </div>
             <div>
               <h1 className="font-semibold mb-2 text-2xl font-Montser">
-                Category
+                Category 
               </h1>
               <div className="font-lato! text-sm! gap-2!">
                 <ul>
