@@ -12,7 +12,6 @@ function SecondNav() {
     <div className="shadow-md">
       <Container className="flex items-center justify-between text-black p-4! font-Montser">
         <nav className="flex w-full max-w-5xl mx-auto">
-          {/* Input takes 50% */}
           <div className="w-1/2 pr-2">
             <input
               placeholder="Search Product"
@@ -23,7 +22,6 @@ function SecondNav() {
             />
           </div>
 
-          {/* Cart icon takes 50% */}
           <div className="w-1/2 flex justify-end items-center pl-2">
             <ShoppingCart size={30} className="text-zinc-700 cursor-pointer" />
           </div>

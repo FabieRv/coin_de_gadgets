@@ -27,7 +27,7 @@ function Footer() {
       </div>
 
       <div className="bg-blue-950 text-white">
-        <Container className=" font-Montser">
+        <Container className=" font-Montser  lg:py-2!">
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 pb-4">
             <div className="gap-4">
               <Link to={"/"}>
@@ -80,7 +80,7 @@ function Footer() {
             </div>
             <div>
               <h1 className="font-semibold mb-2 text-2xl font-Montser">
-                Category 
+                Category
               </h1>
               <div className="font-lato! text-sm! gap-2!">
                 <ul>
