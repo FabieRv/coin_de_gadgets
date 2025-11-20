@@ -27,8 +27,8 @@ function Footer() {
       </div>
 
       <div className="bg-blue-950 text-white">
-        <Container className="py-4! font-Montser">
-          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10">
+        <Container className=" font-Montser">
+          <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 pb-4">
             <div className="gap-4">
               <Link to={"/"}>
                 <img
