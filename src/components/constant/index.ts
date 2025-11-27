@@ -41,8 +41,8 @@ export const products: Product[] = [
     title: "Asus Pot GeaForce RTX",
     price: 25000,
     description:
-      "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
-    image: "images/babylis_.jpg",
+      "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser",
+    image: "/images/babylis_.jpg",
     category: "Electronics",
   },
   {
@@ -50,8 +50,8 @@ export const products: Product[] = [
     title: "Asus Pot GeaForce RTX",
     price: 300000,
     description:
-      "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
-    image: "images/images-clavier.jpeg",
+      "Les gadgets promotionnels sont un moyen indispensable de fidéliser les anciens...After downloading, extract the zip file...",
+    image: "/images/images-clavier.jpeg",
     category: "Electronics",
   },
   {
@@ -59,8 +59,8 @@ export const products: Product[] = [
     title: "Asus Pot GeaForce RTX",
     price: 220000,
     description:
-      "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
-    image: "images/images-chaise.jpeg",
+      "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens",
+    image: "/images/images-chaise.jpeg",
     category: "Household",
   },
   {
@@ -68,8 +68,8 @@ export const products: Product[] = [
     title: "Asus Pot GeaForce RTX",
     price: 3200,
     description:
-      "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
-    image: "images/61SNXaa04qL.jpg",
+      "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...",
+    image: "/images/img.jpg",
     category: "Electronics",
   },
   {
@@ -77,8 +77,8 @@ export const products: Product[] = [
     title: "Asus Pot GeaForce RTX",
     price: 20000,
     description:
-      "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
-    image: "images/95897_large.png",
+      "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...",
+    image: "/images/ecouteur.png",
     category: "Electronics",
   },
   {
@@ -86,8 +86,8 @@ export const products: Product[] = [
     title: "Asus Pot GeaForce RTX",
     price: 45000,
     description:
-      "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
-    image: "images/chaise-rouge_1308-86311.jpg",
+      "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...",
+    image: "/images/chaise-rouge_1308-86311.jpg",
     category: "Household",
   },
   {
@@ -96,7 +96,7 @@ export const products: Product[] = [
     price: 120000,
     description:
       "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
-    image: "images/goods_bicycle.jpg",
+    image: "/images/goods_bicycle.jpg",
     category: "Sports",
   },
   {
@@ -105,7 +105,7 @@ export const products: Product[] = [
     price: 25000,
     description:
       "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
-    image: "images/babyliss.jpeg",
+    image: "/images/babyliss.jpeg",
     category: "Electronics",
   },
   {
@@ -114,7 +114,7 @@ export const products: Product[] = [
     price: 5000,
     description:
       "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
-    image: "images/images-torche.jpeg",
+    image: "/images/images-torche.jpeg",
     category: "Tools",
   },
 ]
