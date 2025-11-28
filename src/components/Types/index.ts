@@ -11,3 +11,10 @@ export type Product = {
   image: string
   category: string
 }
+
+export type ProductState = {
+  items: Product[]
+  filteredItems: Product[]
+  searchTerm: string
+  category: string
+}

@@ -1,13 +1,7 @@
 import { createSlice } from "@reduxjs/toolkit"
 import type { PayloadAction } from "@reduxjs/toolkit"
 import { products } from "../../constant"
-import type { Product } from "../../Types"
-type ProductState = {
-  items: Product[]
-  filteredItems: Product[]
-  searchTerm: string
-  category: string
-}
+import type { ProductState } from "../../Types/index"
 
 const initialState: ProductState = {
   items: products,

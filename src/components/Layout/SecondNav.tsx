@@ -3,16 +3,20 @@ import { setSearchTerm } from "../features/products/ProductSlice"
 import Container from "../common/Container"
 import type { RootState } from "../../App/Store"
 import { ShoppingCart } from "lucide-react"
+import { Link } from "react-router-dom"
 
 function SecondNav() {
   const dispatch = useDispatch()
   const searchTerm = useSelector((state: RootState) => state.product.searchTerm)
 
+  const cartItems = useSelector((state: RootState) => state.cart.items)
+  const itemCount = cartItems.reduce((total, item) => total + item.quantity, 0)
+
   return (
     <div className="shadow-md">
-      <Container className="flex items-center justify-between text-black p-4! font-Montser">
+      <Container className="flex items-center justify-between text-black font-Montser py-6!">
         <nav className="flex w-full max-w-5xl mx-auto">
-          <div className="w-1/2 pr-2">
+          <div className="w-1/2">
             <input
               placeholder="Search Product"
               type="text"
@@ -21,11 +25,25 @@ function SecondNav() {
               onChange={(e) => dispatch(setSearchTerm(e.target.value))}
             />
           </div>
-
-          <div className="w-1/2 flex justify-end items-center pl-2">
-            <ShoppingCart size={30} className="text-zinc-700 cursor-pointer" />
-          </div>
         </nav>
+
+        <div className="relative flex items-center justify-end">
+          <Link to={"/cart"} className="flex items-center">
+            <ShoppingCart
+              size={40}
+              className="text-zinc-700 cursor-pointer bg-zinc-200 p-2 rounded-md transition-colors hover:bg-zinc-300"
+            />
+          </Link>
+
+          {itemCount > 0 && (
+            <span
+              className="absolute -top-2 -right-2 bg-blue-700 text-white text-sm 
+                rounded-full w-5 h-5 flex items-center justify-center pointer-events-none"
+            >
+              {itemCount}
+            </span>
+          )}
+        </div>
       </Container>
     </div>
   )

@@ -3,6 +3,7 @@ import Container from "../common/Container"
 import Button from "../common/Button"
 import { ShoppingCart, Star } from "lucide-react"
 import { useDispatch, useSelector } from "react-redux"
+import { addToCart } from "../features/cart/cartSlice"
 
 function ProductDetail() {
   const { id } = useParams<{ id: string }>()
@@ -72,6 +73,7 @@ function ProductDetail() {
               <Button
                 label="Add to Cart"
                 className="bg-[#50B4B4] hover:bg-cyan-600 text-white flex justify-between items-center gap-2 font-lato"
+                onClick={() => dispatch(addToCart(product))}
               >
                 <ShoppingCart />
               </Button>

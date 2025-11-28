@@ -24,7 +24,7 @@ function ProductCart({ product }: { product: Product }) {
           </p>
           <div className="flex justify-between mt-4 itemes-center">
             <p className="font-bold">{product.price.toLocaleString()} Ar</p>
-            <p>View Details</p>
+            <p className="text-blue-600">View Details</p>
           </div>
         </div>
       </div>

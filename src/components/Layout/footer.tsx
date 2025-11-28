@@ -122,7 +122,7 @@ function Footer() {
       <div className="bg-[#50B4B4] p-2 ">
         <Container className="py-0! text-white  text-center">
           <p className="font-Montser">
-            Copyrigh &copy;2025 <span className="font-bold ">Fabie Rav</span>{" "}
+            Copyright &copy;2025 <span className="font-bold ">Fabie Rav</span>{" "}
           </p>
         </Container>
       </div>
