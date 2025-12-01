@@ -5,6 +5,9 @@ import CartPages from "./components/pages/Products/CartPages"
 import ProductGrid from "./components/pages/Products/ProductGrid"
 import ProductDetail from "./components/pages/Products/ProductDetail"
 import Gallery from "./components/pages/Gallery/Gallery"
+import Fqa from "./components/pages/FQA/Fqa"
+import Contact from "./components/pages/Contacts/Contact"
+
 
 export const router = createBrowserRouter([
   {
@@ -16,6 +19,8 @@ export const router = createBrowserRouter([
       { path: "products/:id", element: <ProductDetail /> },
       { path: "cart", element: <CartPages /> },
       { path: "gallery", element: <Gallery /> },
+      { path: "fqa", element: <Fqa /> },
+      { path: "contact", element: <Contact /> },
     ],
   },
 ])
