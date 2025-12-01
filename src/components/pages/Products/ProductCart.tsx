@@ -1,11 +1,10 @@
 import { Link } from "react-router-dom"
-import type { Product } from "../Types"
+import type { Product } from "../../Types"
 
 function ProductCart({ product }: { product: Product }) {
   return (
     <Link to={`/products/${product.id}`}>
       <div className="bg-white shadow-md hover:shadow-xl transition-shadow duration-300 rounded-xl overflow-hidden cursor-pointer">
-        {/* IMAGE DU PRODUIT */}
         <div className="h-48 w-full overflow-hidden">
           <img
             src={product.image}
@@ -14,7 +13,6 @@ function ProductCart({ product }: { product: Product }) {
           />
         </div>
 
-        {/* TEXTE */}
         <div className="p-4 bg-gray-50">
           <h2 className="text-lg font-Montser text-gray-800 my-4">
             {product.title.substring(0.25) + "..."}

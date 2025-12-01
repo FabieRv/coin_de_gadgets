@@ -1,7 +1,7 @@
 import { useDispatch } from "react-redux"
 import { setCategory } from "../features/products/ProductSlice"
 import Container from "../common/Container"
-import ProductGrid from "./ProductGrid"
+import ProductGrid from "./Products/ProductGrid"
 import Button from "../common/Button"
 
 const Categories = ["All", "Electronics", "Household", "Sports", "Tools"]

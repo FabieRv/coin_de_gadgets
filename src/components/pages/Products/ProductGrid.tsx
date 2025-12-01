@@ -1,7 +1,7 @@
-import Container from "../common/Container"
+import Container from "../../common/Container"
 import ProductCart from "./ProductCart"
 import { useSelector } from "react-redux"
-import type { RootState } from "../../App/Store"
+import type { RootState } from "../../../App/Store"
 
 function ProductGrid() {
   const filtered = useSelector(

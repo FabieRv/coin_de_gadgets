@@ -1,9 +1,9 @@
 import { Link, useParams } from "react-router-dom"
-import Container from "../common/Container"
-import Button from "../common/Button"
+import Container from "../../common/Container"
+import Button from "../../common/Button"
 import { ShoppingCart, Star } from "lucide-react"
 import { useDispatch, useSelector } from "react-redux"
-import { addToCart } from "../features/cart/cartSlice"
+import { addToCart } from "../../features/cart/cartSlice"
 
 function ProductDetail() {
   const { id } = useParams<{ id: string }>()
