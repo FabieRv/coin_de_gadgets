@@ -52,13 +52,13 @@ function Signup() {
               )}
               <input
                 type="email"
-                placeholder="email Adress"
+                placeholder="Email Adress"
                 required
                 className="w-full p-3 border-b-2 border-gray-300 outline-none focus:border-cyan-100"
               />
               <input
                 type="password"
-                placeholder="password"
+                placeholder="Password"
                 required
                 className="w-full p-3 border-b-2 border-gray-300 outline-none focus:border-cyan-100"
               />
