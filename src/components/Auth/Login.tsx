@@ -76,7 +76,7 @@ function Login() {
                   </p>
                 </div>
               )}
-              <button className="w-full p-3 bg-gradient-to-r from-blue-700 via-cyan-600 to-cyan-200 text-white rounded-full text-lg font-medium opacity-90 transition">
+              <button className="w-full p-3  from-blue-700 via-cyan-600 to-cyan-200 text-white rounded-full text-lg font-medium opacity-90 transition">
                 {isLoginMode ? "Login" : "Signup"}
               </button>
 
@@ -89,7 +89,7 @@ function Login() {
                 </p>
                 <a
                   href="#"
-                  onClick={(e) => setIsLoginMode(!isLoginMode)}
+                  onClick={() => setIsLoginMode(!isLoginMode)}
                   className="text-blue-700"
                 >
                   {isLoginMode ? "Singup " : "Login"}
