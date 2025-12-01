@@ -4,8 +4,9 @@ export const headerLinkData: LinkType[] = [
   { label: "About Us", href: "/about" },
   { label: "Products", href: "/products/:id" },
   { label: "Galery", href: "/gallery" },
-  { label: "FQA", href: "/fqa" },
+  { label: "Collection", href: "/collection" },
   { label: "Contact", href: "/contact" },
+  
 ]
 
 import type { Product } from "../Types"

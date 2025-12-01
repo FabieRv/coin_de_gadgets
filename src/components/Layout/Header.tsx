@@ -65,10 +65,10 @@ function Header() {
           {isOpen && (
             <ul className="w-[150px] absolute right-0 top-12 bg-zinc-50 z-10 gap-4 flex flex-col p-2 rounded shadow">
               <li>
-                <Link to="/">Sign</Link>
+                <Link to="/signup">Signup</Link>
               </li>
               <li>
-                <Link to="/">My Count</Link>
+                <Link to="/login">Login</Link>
               </li>
             </ul>
           )}

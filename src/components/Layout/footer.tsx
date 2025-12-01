@@ -5,8 +5,9 @@ import { Facebook, Instagram, Twitter, Youtube } from "lucide-react"
 
 function Footer() {
   return (
-    <div className="mt-8">
-      <div className="bg-blue-950 text-white font-Montser">
+    <div>
+      <div className="bg-zinc-100 p-4 "></div>
+      <div className="bg-[#145aaf] text-white font-Montser">
         <Container
           tag="footer"
           className="flex flex-col lg:flex-row justify-between lg:py-10"
@@ -17,7 +18,7 @@ function Footer() {
               <input
                 type="text"
                 placeholder="Enter Your Email"
-                className="py-3 px-4 rounded shadow-md w-full bg-zinc-100 text-black"
+                className="py-3 px-4 rounded  w-full bg-zinc-100 text-black"
               />
 
               <Button label="Submit" className="py-3 px-6 sm:w-auto w-full" />
@@ -26,7 +27,7 @@ function Footer() {
         </Container>
       </div>
 
-      <div className="bg-blue-950 text-white">
+      <div className="bg-[#145aaf] text-white">
         <Container className=" font-Montser  lg:py-2!">
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-10 pb-4">
             <div className="gap-4">
