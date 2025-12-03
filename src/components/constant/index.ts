@@ -6,7 +6,6 @@ export const headerLinkData: LinkType[] = [
   { label: "Galery", href: "/gallery" },
   { label: "Collection", href: "/collection" },
   { label: "Contact", href: "/contact" },
-  
 ]
 
 import type { Product } from "../Types"
@@ -17,7 +16,7 @@ export const products: Product[] = [
     title: "Asus Pot GeaForce RTX",
     price: 1000000,
     description: "Les gadgets promotionnels...",
-    image: "/images/ordinateur.jpg",
+    image: "/images/ordinateur.webp",
     category: "Electronics",
   },
   {
@@ -25,7 +24,7 @@ export const products: Product[] = [
     title: "Motos Pot GeaForce RTX",
     price: 2400000,
     description: "Les gadgets promotionnels...",
-    image: "/images/images-scooter.jpeg",
+    image: "/images/images-scooter.webp",
     category: "Sports",
   },
   {
@@ -33,7 +32,7 @@ export const products: Product[] = [
     title: "Table Melanine Pot",
     price: 20000,
     description: "Les gadgets promotionnels...",
-    image: "/images/images-table.jpeg",
+    image: "/images/images-table.webp",
     category: "Household",
   },
 
@@ -43,7 +42,7 @@ export const products: Product[] = [
     price: 25000,
     description:
       "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser",
-    image: "/images/babylis_.jpg",
+    image: "/images/babylis_.webp",
     category: "Electronics",
   },
   {
@@ -52,7 +51,7 @@ export const products: Product[] = [
     price: 300000,
     description:
       "Les gadgets promotionnels sont un moyen indispensable de fidéliser les anciens...After downloading, extract the zip file...",
-    image: "/images/images-clavier.jpeg",
+    image: "/images/images-clavier.webp",
     category: "Electronics",
   },
   {
@@ -61,7 +60,7 @@ export const products: Product[] = [
     price: 220000,
     description:
       "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens",
-    image: "/images/images-chaise.jpeg",
+    image: "/images/images-chaise.webp",
     category: "Household",
   },
   {
@@ -70,7 +69,7 @@ export const products: Product[] = [
     price: 3200,
     description:
       "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...",
-    image: "/images/img.jpg",
+    image: "/images/img.webp",
     category: "Electronics",
   },
   {
@@ -79,7 +78,7 @@ export const products: Product[] = [
     price: 20000,
     description:
       "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...",
-    image: "/images/ecouteur.png",
+    image: "/images/cofert.webp",
     category: "Electronics",
   },
   {
@@ -88,7 +87,7 @@ export const products: Product[] = [
     price: 45000,
     description:
       "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...",
-    image: "/images/chaise-rouge_1308-86311.jpg",
+    image: "/images/chaise.webp",
     category: "Household",
   },
   {
@@ -97,7 +96,7 @@ export const products: Product[] = [
     price: 120000,
     description:
       "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
-    image: "/images/goods_bicycle.jpg",
+    image: "/images/goods_bicycle.webp",
     category: "Sports",
   },
   {
@@ -106,7 +105,7 @@ export const products: Product[] = [
     price: 25000,
     description:
       "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
-    image: "/images/babyliss.jpeg",
+    image: "/images/babyliss.webp",
     category: "Electronics",
   },
   {
@@ -115,7 +114,16 @@ export const products: Product[] = [
     price: 5000,
     description:
       "Les gadgets promotionnels sont un moyen indispensable d’attirer de nouveaux clients mais aussi de fidéliser les anciens...After downloading, extract the zip file...",
-    image: "/images/images-torche.jpeg",
+    image: "/images/images-torche.webp",
     category: "Tools",
   },
+]
+
+export const galleryImages = [
+  { id: 1, src: "images/babylis_.webp", alt: "Image 1" },
+  { id: 2, src: "public/images/images.webp", alt: "Image 2" },
+  { id: 3, src: "public/images/cofert.webp", alt: "Image 3" },
+  { id: 4, src: "public/images/images-clavier.webp", alt: "Image 4" },
+  { id: 5, src: "public/images/images-table.webp", alt: "Image 5" },
+  { id: 6, src: "public/images/images-scooter.webp", alt: "Image 6" },
 ]

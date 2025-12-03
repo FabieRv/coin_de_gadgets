@@ -76,7 +76,7 @@ function Signup() {
                   </p>
                 </div>
               )}
-              <button className="w-full p-3  from-blue-700 via-cyan-600 to-cyan-200 text-white rounded-full text-lg font-medium opacity-90 transition">
+              <button className="w-full p-3  from-blue-700 via-cyan-600 to-cyan-200 text-gray-500 rounded-full text-lg font-medium opacity-90 transition">
                 {isLoginMode ? "Login" : "Signup"}
               </button>
 
