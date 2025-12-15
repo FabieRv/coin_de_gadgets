@@ -3,8 +3,8 @@
 @import "tailwindcss";
 
 @theme {
-  --color-primary: #edeef0;
-  --color-button: #e98603;
+  --color-primary: #50b4b4;
+  --color-button: #50b4b4;
   --font-vonca: "Vonca", sans-serif;
   --font-lato: "Lato", sans-serif;
   --font-Montser: "Monsterrat ExtraLinght";

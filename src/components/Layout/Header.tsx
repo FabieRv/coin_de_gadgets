@@ -13,7 +13,7 @@ function Header() {
   }
 
   return (
-    <div className="shadow-sm">
+    <div className="shadow-sm ">
       <Container
         tag="header"
         className="flex items-center justify-between text-black pt-0! "

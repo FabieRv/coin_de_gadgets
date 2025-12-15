@@ -128,3 +128,27 @@ export const galleryImages = [
   { id: 5, src: "public/images/images-table.webp", alt: "Image 5" },
   { id: 6, src: "public/images/images-scooter.webp", alt: "Image 6" },
 ]
+
+export const galleryPicsData = [
+  { height: "md:h-[290px]", image: "/images/gadg1.jpg" },
+  { height: "md:h-[290px]", image: "/images/gadg2.jpg" },
+  { height: "md:h-[290px]", image: "/images/gadg3.jpg" },
+  { height: "md:h-[478px]", image: "/images/gadg4.jpg" },
+  { height: "md:h-[298px]", image: "/images/gadg5.jpg" },
+  { height: "md:h-[338px]", image: "/images/gadg6.jpg" },
+  { height: "md:h-[465px]", image: "/images/gadg7.jpg" },
+  { height: "md:h-[645px]", image: "/images/gadg8.jpg" },
+  { height: "md:h-[605px]", image: "/images/gadg9.jpg" },
+  { height: "md:h-[394px]", image: "/images/gadg10.jpg" },
+  { height: "md:h-[394px]", image: "/images/gadg11.jpg" },
+  { height: "md:h-[315px]", image: "/images/gadg12.jpg" },
+  { height: "md:h-[413px]", image: "/images/gadg1.jpg" },
+  { height: "md:h-[413px]", image: "/images/babyliss.webp" },
+  { height: "md:h-[315px]", image: "/images/cofert.webp" },
+  { height: "md:h-[234px]", image: "/images/images-table.webp" },
+  { height: "md:h-[234px]", image: "/images/images-torche.webp" },
+  { height: "md:h-[410px]", image: "/images/images.webp" },
+  { height: "md:h-[350px]", image: "/images/ordinateur.webp" },
+  { height: "md:h-[350px]", image: "/images/sorie.webp" },
+  { height: "md:h-[350px]", image: "/images/chaise.webp" },
+]
