@@ -14,7 +14,7 @@ const Gallery = () => {
       <Container className="py-12 ">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-extrabold text-center text-zinc-700 mb-10">
-            Découvrez nos gadgetsv
+            Découvrez nos gadgets
           </h2>
 
           <Masonry

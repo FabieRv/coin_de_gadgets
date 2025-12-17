@@ -26,7 +26,7 @@ function Contact() {
           <div className="flex flex-col md:flex-row justify-between gap-4 ">
             <div className="flex flex-col w-full md:w-1/2 gap-2 mt-2">
               {/* Input Name */}
-              <label htmlFor="">name</label>
+
               <input
                 type="text"
                 placeholder="Enter your Name"
@@ -35,7 +35,6 @@ function Contact() {
             </div>
             {/* Input email*/}
             <div className="flex flex-col w-full md:w-1/2 gap-2 mt-2">
-              <label htmlFor="">Email</label>
               <input
                 type="email"
                 placeholder="Enter a valid email address"
@@ -59,7 +58,7 @@ function Contact() {
                 <FaRunning className={iconStyle} />
               </div>
               <h2 className="text-xl font-bold uppercase font-Montser text-gray-800">
-                À PROPOS DU CLUB
+                À PROPOS DU COIN DE GADGETS
               </h2>
               <div className="text-gray-600">
                 <p>Vente de produits</p>
@@ -75,9 +74,9 @@ function Contact() {
               <h2 className="text-xl font-bold uppercase font-Montser text-gray-800">
                 TÉLÉPHONE (FIXE)
               </h2>
-              <div className="text-gray-600">
+              <div className="text-gray-600 font-lato text-sm">
                 <p>+264 35 2657 8987</p>
-                <p>+ 2 262 3336</p>
+                <p>+261 262 3336 26</p>
               </div>
             </div>
 
@@ -89,7 +88,7 @@ function Contact() {
               <h2 className="text-xl font-bold uppercase font-Montser text-gray-800">
                 ADRESSE DE NOTRE BUREAU
               </h2>
-              <div className="text-gray-600 text-sm">
+              <div className="text-gray-600 text-sm font-lato">
                 <p>Gadgets online</p>
                 <p>Sabotsy Namehana local</p>
                 <p>Antananarivo, 101</p>

@@ -6,7 +6,6 @@ import { Facebook, Instagram, Twitter, Youtube } from "lucide-react"
 function Footer() {
   return (
     <div>
-      <div className="bg-zinc-100 p-4 "></div>
       <div className="bg-[#145aaf] text-white font-Montser">
         <Container
           tag="footer"
@@ -107,7 +106,7 @@ function Footer() {
               </div>
             </div>
 
-            <div>
+            <div className="font-lato">
               <h1 className="font-semibold mb-2 text-2xl font-Montser">
                 Contact
               </h1>
